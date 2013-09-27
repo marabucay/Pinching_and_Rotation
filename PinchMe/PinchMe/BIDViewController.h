@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDViewController : UIViewController<UIGestureRecognizerDelegate>
+@interface BIDViewController : UIViewController <UIGestureRecognizerDelegate>
 
 @property(strong,nonatomic) UIImageView *imageView;
 
